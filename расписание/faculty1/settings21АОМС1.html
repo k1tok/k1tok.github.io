@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    </head>
+<body>
+      <style>
+        .custom-navbar{
+            background-color: #060E3A;
+            font-size: 30px;
+        }
+        .btn-static {
+            background-color: #07c0cd; /* Задайте нужный цвет фона кнопки */
+            
+            color: #000000; /* Задайте нужный цвет текста кнопки */
+            transition: none; /* Отключите анимацию при наведении курсора */
+        }
+
+        body{
+            background-color: rgb(66, 66, 66);
+            font-family: 'Roboto', sans-serif;
+            font-size:20px
+        }
+        .title-h1{
+            font-size:25px;
+            font-family: 'Roboto', sans-serif;
+            color:whitesmoke;
+            text-align: center;
+            margin-top: 50px;
+            
+        }
+        .custom-dropdown{
+            height: 35px;
+            overflow-y: scroll;
+        }
+        .bg-custom{
+            background-color: rgb(66, 66, 66);
+        }
+        .custom-spin{
+            width: 4rem;
+            height: 4rem;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Helper</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link">Настройки<span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="расписание_21-АО-МС1.html">Мой факультет</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../chup.html">Выбор факультета</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="aboutus21АОМС1.html">О нас</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <h1 class="title-h1"> Скоро будет с нами! </h1>
+
+      <div class="d-flex justify-content-center align-items-center" style="height: 60vh;">
+        <div class="spinner-border custom-spin" role="status">
+          <span class="sr-only">Loading...</span>
+        </div>
+      </div>
+</body>
+</body>
+</html>
